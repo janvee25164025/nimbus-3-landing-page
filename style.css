@@ -1,0 +1,67 @@
+
+body{
+    background-color:blue;
+    color:white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navbar nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.95rem;
+}
+
+
+.new {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+    padding: 0 20px;
+}
+
+.badge {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.new h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.new p {
+    max-width: 600px;
+    color: #d0d8e0;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color: white;
+    color: #0c1a2e;
+    border: none;
+    padding: 12px 36px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
